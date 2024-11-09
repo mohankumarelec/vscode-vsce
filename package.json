@@ -27,7 +27,7 @@
 		"vsce": "vsce"
 	},
 	"scripts": {
-		"install": "npm run compile",
+		"prepare": "npm run compile",
 		"compile": "tsc",
 		"api": "api-extractor run --local --verbose",
 		"build": "npm run compile && npm run api",
